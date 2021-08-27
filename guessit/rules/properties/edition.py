@@ -31,7 +31,7 @@ def edition(config):  # pylint:disable=unused-argument
                  else '__default__')
     rebulk.string('se', value='Special', tags='has-neighbor')
     rebulk.string('ddc', value="Director's Definitive Cut")
-    rebulk.regex('criterion-edition', 'edition-criterion', 'CC', value='Criterion')
+    rebulk.regex('criterion-edition', 'edition-criterion', 'CC', 'criterion', value='Criterion')
     rebulk.regex('deluxe', 'deluxe-edition', 'edition-deluxe', value='Deluxe')
     rebulk.regex('limited', 'limited-edition', value='Limited', tags=['has-neighbor', 'release-group-prefix'])
     rebulk.regex(r'theatrical-cut', r'theatrical-edition', r'theatrical', value='Theatrical')
