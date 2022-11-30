@@ -1375,6 +1375,19 @@
   release_group: PTP
   type: movie
 
+? The.Long.Riders.1980.RM.720p.Bluray.DTS.5.1.x264-mintHD.mkv
+: title: The Long Riders
+  type: movie
+  year: 1980
+  edition: Remastered
+  screen_size: 720p
+  source: Blu-ray
+  audio_codec: DTS
+  audio_channels: '5.1'
+  video_codec: H.264
+  release_group: mintHD
+  container: mkv
+
 ? Delibal 2015 720p Upscale DVDRip x264 DD5.1 AC3
 : title: Delibal
   year: 2015

@@ -241,7 +241,7 @@
         "Extended": {"string": ["extended"], "regex": ["extended-?cut", "extended-?version"], "tags": ["has-neighbor", "release-group-prefix"]},
         "Alternative Cut": {"regex": ["alternat(e|ive)(?:-?Cut)?"], "tags": ["has-neighbor", "release-group-prefix"]},
         "Remastered": [
-          {"regex": "(?:4k.)?remaster(?:ed)?", "tags": ["release-group-prefix"]}
+          {"regex": "(?:4k.)?(?:remaster|rm)(?:ed)?", "tags": ["release-group-prefix"]}
         ],
         "Restored": [
           {"regex": "(?:4k.)?restore(?:d)?", "tags": ["release-group-prefix"]}
